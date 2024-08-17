@@ -80,10 +80,15 @@ document.getElementById("iya").addEventListener("click", function () {
   galleryContainer.innerHTML = `
     <h2>Our Beautiful Moments</h2>
     <div class="gallery">
-      <img src="image/image1.jpg" alt="Anniversary Photo 1" width="300" height="200">
-      <img src="image/image2.jpg" alt="Anniversary Photo 2" width="300" height="200">
-      <img src="image/image3.jpg" alt="Anniversary Photo 3" width="300" height="200">
-      <img src="image/image4.jpg" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image1.png" alt="Anniversary Photo 1" width="300" height="200">
+      <img src="images/image2.png" alt="Anniversary Photo 2" width="300" height="200">
+      <img src="images/image3.png" alt="Anniversary Photo 3" width="300" height="200">
+      <img src="images/image4.png" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image5.png" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image6.png" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image7.png" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image8.png" alt="Anniversary Photo 4" width="300" height="200">
+      <img src="images/image9.png" alt="Anniversary Photo 4" width="300" height="200">
     </div>
   `;
   document.getElementById("mainContent").classList.remove("active");
