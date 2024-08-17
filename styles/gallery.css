@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2.our {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  filter: blur(0) brightness(90%);
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: brightness(100%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+a {
+  text-decoration: none;
+}
+/* Responsif untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 150px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery img {
+    width: 100px;
+    height: 80px;
+  }
+
+  h2.our {
+    font-size: 2em;
+  }
+}
