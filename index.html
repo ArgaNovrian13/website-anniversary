@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John & Elisa's Anniversary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="envelope-container active" id="envelope">
+      <div class="envelope"></div>
+      <div class="message">Click to open</div>
+    </div>
+
+    <div class="main-content" id="mainContent">
+      <audio id="anniversaryAudio" autoplay hidden>
+        <source src="audio/Virgoun.mp3" type="audio/mp3" />
+      </audio>
+
+      <h1>Happy Anniversary!</h1>
+      <p>
+        Grace & Hasian, today we celebrate the love, joy, and beautiful journey
+        we've shared together.
+      </p>
+      <p>
+        We look back on our moments with smiles and look forward to creating
+        many more beautiful memories together.
+      </p>
+
+      <div class="names">Grace & Hasian</div>
+      <div><span id="tglJadian"></span></div>
+      <div id="timePassed" class="time-passed"></div>
+      <div>
+        <h4>Apakah anda ingin selalu menjalani hubungan ini</h4>
+        <div id="buttons">
+          <button id="iya">Iya</button>
+          <button id="tidak">Tidak</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galeri foto akan muncul di sini setelah tombol 'Iya' diklik -->
+    <div id="gallery" class="gallery-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
