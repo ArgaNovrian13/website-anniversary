@@ -10,6 +10,27 @@
   </head>
   <body>
     <h2 class="our">Momen Indah Kita</h2>
+    <button
+      onclick="document.getElementById('anniversaryAudio').play()"
+      style="
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #6eacda;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      "
+    >
+      Putar Musik
+    </button>
+
+    <audio id="anniversaryAudio" preload="auto">
+      <source src="../audio/Virgoun.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
     <div class="gallery">
       <img
         src="../images/image1.png"
@@ -125,6 +146,77 @@
         data-aos="fade-up-left"
         data-aos-duration="2000"
       />
+      <img
+        src="../images/image20.png"
+        alt="Anniversary Photo 20"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      />
+      <img
+        src="../images/image22.png"
+        alt="Anniversary Photo 21"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      />
+      <img
+        src="../images/image23.png"
+        alt="Anniversary Photo 21"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      />
+      <img
+        src="../images/image24.png"
+        alt="Anniversary Photo 23"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      />
+      <img
+        src="../images/image21.png"
+        alt="Anniversary Photo 21"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      />
+      <div class="video-gallery">
+        <div class="video-container">
+          <video
+            src="../videos/video1.mp4"
+            controls
+            poster="../images/video1-poster.jpg"
+          ></video>
+          <button
+            class="play-button"
+            onclick="this.previousElementSibling.play()"
+          >
+            Play
+          </button>
+        </div>
+        <div class="video-container">
+          <video
+            src="../videos/video2.mp4"
+            controls
+            poster="../images/video2-poster.jpg"
+          ></video>
+          <button
+            class="play-button"
+            onclick="this.previousElementSibling.play()"
+          >
+            Play
+          </button>
+        </div>
+        <div class="video-container">
+          <video
+            src="../videos/video3.mp4"
+            controls
+            poster="../images/video3-poster.jpg"
+          ></video>
+          <button
+            class="play-button"
+            onclick="this.previousElementSibling.play()"
+          >
+            Play
+          </button>
+        </div>
+      </div>
     </div>
     <br />
     <br />
